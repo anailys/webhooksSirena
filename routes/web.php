@@ -16,7 +16,6 @@ use App\Http\Controllers\WebhooksController;
 */
 
 Route::get('/', function () {
-    //dd(SirenaFacade::getApikey());
     return view('welcome');
 });
 
